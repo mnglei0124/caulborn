@@ -1,11 +1,6 @@
-[gd_scene format=3]
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/main.gd" id="1_main"]
 
 [node name="Main" type="Node2D"]
-
-[node name="Label" type="Label" parent="."]
-offset_right = 320.0
-offset_bottom = 240.0
-text = "CAULBORN skeleton — it runs.
-Next milestone: M1, the battle box."
-horizontal_alignment = 1
-vertical_alignment = 1
+script = ExtResource("1_main")

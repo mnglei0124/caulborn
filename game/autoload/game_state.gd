@@ -13,6 +13,13 @@ var weight: int = 0
 var wick_max: int = 20
 var breath_max: int = 10
 
+## Run inventory. Starting kit per design/encounters/bell.md tuning targets.
+var items: Array[Dictionary] = [
+	{"name": "Orchard Preserves", "heal": 8},
+	{"name": "Orchard Preserves", "heal": 8},
+	{"name": "Orchard Preserves", "heal": 8},
+]
+
 ## Story flags, namespaced by region, e.g.:
 ##   "fallows.bell.outcome" -> "stilled" | "stilled_scarred" | "guttered"
 ##   "fallows.bell.ash_consumed" -> bool
